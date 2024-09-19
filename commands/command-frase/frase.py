@@ -1,3 +1,5 @@
+#Lembre-se de importar as bibliotecas "random" e "json", utilizando o comando "pip install json".
+#Logo depois da instalação, utilize o comando "import json" dentro do seu código.
 @bot.command(name='frase')
 async def send_quote(ctx):
     with open('quotes.json', 'r', encoding='utf-8') as file:
