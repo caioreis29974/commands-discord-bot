@@ -1,3 +1,4 @@
+#Lembre-se de importar o Translator no seu código, utilizando o comando "from googletrans import Translator".
 @bot.command(name='traduzir')
 async def traduzir(ctx, *, text: str):
     try:
