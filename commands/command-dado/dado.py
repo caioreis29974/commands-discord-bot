@@ -1,3 +1,4 @@
+#Lembre-se de ter importado a biblioteca "random" no no seu arquivo.
 @bot.command()
 async def dado(ctx, numero: int = None):
     if numero is None:
