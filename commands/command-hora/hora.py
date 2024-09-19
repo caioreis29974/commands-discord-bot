@@ -1,3 +1,4 @@
+#Lembre-se de adicionar o módulo datetime ao seu código, utilizando "from datetime import datetime".
 @bot.command()
 async def hora(ctx):
     now = datetime.now()
