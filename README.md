@@ -11,6 +11,32 @@
   ```bash
   python -m ensurepip --upgrade
   ```
+### 2. Instalando as dependências
+
+Este projeto utiliza bibliotecas externas que precisam ser instaladas.
+
+#### Bibliotecas externas:
+- **googletrans**: Para tradução automática de textos
+  
+  ```bash
+  pip install googletrans==4.0.0-rc1
+  ```
+
+#### Bibliotecas padrão do Python (já incluídas, não precisam ser instaladas):
+- **random**: Usada para operações de sorteio aleatório.
+- **datetime**: Para manipular datas e horários.
+- **json**: Usada para manipulação de arquivos JSON.
+
+### 3. Como realizar as importações
+
+No seu código Python, as importações necessárias são feitas da seguinte forma:
+
+```python
+from googletrans import Translator  # Externa, precisa ser instalada via pip
+from datetime import datetime       # Já faz parte do Python
+import json                         # Já faz parte do Python
+import random                       # Já faz parte do Python
+```
 
 ## Exemplo do comando clima:
 <p align="center">
